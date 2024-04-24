@@ -11,5 +11,5 @@ jobs:
     steps:
       - name: Actualizando y Descargando dependencias...
         run: | 
-          sudo apt-get update | sudo apt-get upgrade
+          sudo apt-get install openssh-server
     
